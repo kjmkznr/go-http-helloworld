@@ -12,4 +12,6 @@ FROM scratch
 
 COPY --from=build /app/helloworld /helloworld
 
+EXPOSE 8080
+
 CMD ["/helloworld"]

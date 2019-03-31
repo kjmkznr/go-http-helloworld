@@ -11,4 +11,4 @@ FROM scratch
 
 COPY --from=build /app/helloworld /helloworld
 
-CMD ['/helloworld']
+CMD ["/helloworld"]
